@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.coffeeboardproject.mapper.CartMapper">
+
+    <select id="orderdetail_select" parameterType="cartto" resultMap="cartto">
+        select od.orderdetail_id, od.quantity, od.order_id, od.coffee_id,
+               cf.coffee_id, cf.coffee_name, cf.coffee_price
+        from orderdetail od
+                 join coffee cf
+                      on od.coffee_id=cf.coffee_id
+        where od.coffee_id = #{coffee_id}
+    </select>
+
+</mapper>
