@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.programers.coffeeapplication.mapper.ProductMapper">
+    <select id="findAll" resultType="Product">
+        SELECT * FROM product WHERE available = true
+    </select>
+
+    <select id="findById" parameterType="long" resultType="Product">
+        SELECT * FROM product WHERE product_id = #{productId}
+    </select>
+
+    <insert id="insert" parameterType="Product">
+        INSERT INTO product (name, category, description, price, image_url)
+        VALUES (#{name}, #{category}, #{description}, #{price}, #{imageUrl})
+    </insert>
+</mapper>
