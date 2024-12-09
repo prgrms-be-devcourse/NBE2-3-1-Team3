@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.example.coffeeboardproject.mapper.CoffeeMapper">
-    <select id="coffee_select" resultType="coffeeto">
-        select coffee_id, coffee_name, coffee_price
-        from coffee
-    </select>
-</mapper>
