@@ -36,3 +36,21 @@
 
 현재는 총4개의 상품이 존재합니다.
 ![스크린샷 2024-08-30 오후 2.53.41.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/89fde35f-d786-48b7-a620-56fc17eb00d5/dde1364e-4173-4400-840d-690f792d7c3d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-08-30_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.53.41.png)
+
+## 개발환경
+  * intelliJ
+
+## 백엔드 기술 스택 
+  * Spring Boot DevTools
+  * Spring Web
+  * Spring Data JDBC
+  * MyBatas Framework
+  * MariaDB
+* 빌드 도구
+  * gradle
+  * MyriaDB
+## 패키지 구조 
+## 테이블
+## 쿼리
+## 1차 프로젝트 구현 내용
+
