@@ -16,8 +16,9 @@
 
 🤼 **팀 구성**
 
-- 현재 활동 중인 팀 구성 그대로 진행됩니다.[[링크](https://docs.google.com/spreadsheets/d/1zY83bceFd4VzlAMVMZNWbHFEeeiwi_ZYqtgpiqEgnbY)]
+- 신정범, 유방현, 항규리, 이정은, 박지현
 ##  요구 사항
+## 사용기술
 
 ### HTTP 메서드 POST를 이용해 Create, GET을 이용해 Read, PUT을 이용해 Update, DELETE를 이용해 Delete 기능을 구현해주세요.
 
@@ -26,7 +27,7 @@
 - POST: 요청이 들어올 때마다 id가 하나씩 증가하여 menu 리스트에 추가될 수 있도록 코드를 추가 구현합니다.
 - SQL과 ORM 중 하나를 선택하여 데이터 베이스를 구현하여 제작합니다.
 - 구현한 데이터베이스 연동을 구현합니다.
-
+- 
 ## 프로젝트 명세서
 
 ### Background
