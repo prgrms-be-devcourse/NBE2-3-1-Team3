@@ -48,7 +48,7 @@
   * MariaDB
 * 빌드 도구
   * gradle
-  * MyriaDB
+  * MariaDB
 ## 패키지 구조 
 ## 테이블
 ## 쿼리
